@@ -14,7 +14,6 @@ jobs:
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
           persist-credentials: false # Prevent checkout token from overriding mirror auth
-
       - name: Mirror to Target
         uses: pixta-dev/repository-mirroring-action@v1
         with:
